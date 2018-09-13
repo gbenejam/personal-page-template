@@ -1,7 +1,7 @@
-# PersonalPage
+# Resume personal page template
 
 ## Description
-Resume based template done in Bootstrap and Angular.
+Resume based template done in Bootstrap and Angular. Easy to personalise through the typescript.
 
 ## Screenshots
 
