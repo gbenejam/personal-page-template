@@ -1,28 +1,13 @@
-# PersonalPage
+# Resume personal page template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+## Description
+Resume based template done in Bootstrap and Angular. Easy to personalise through the typescript.
 
-## Development server
+![About typescript](https://user-images.githubusercontent.com/16169090/45513548-3e71d580-b7a3-11e8-9584-c5c5d49eacd0.png)
+![Skills typescript](https://user-images.githubusercontent.com/16169090/45513547-3e71d580-b7a3-11e8-8b22-3f836cb8330e.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Screenshots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# personal-page-template
+![Homepage](https://user-images.githubusercontent.com/16169090/45513090-07e78b00-b7a2-11e8-82f0-e00c964fcfa2.png)
+![Skills page](https://user-images.githubusercontent.com/16169090/45513089-07e78b00-b7a2-11e8-8141-5664f605ce80.png)
