@@ -1,5 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 
+export interface PersonalInformation {
+    firstName: string;
+    lastName: string;
+    address: Address;
+    email: string;
+    description: string;
+    quote: string;
+}
+
+export interface Address {
+    city: string;
+    state: string;
+}
+
+export interface SocialInfo {
+    iconClassInfo: string;
+    url: string;
+}
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -38,6 +57,10 @@ export class AboutComponent implements OnInit {
         	url:"https://medium.com/@gbenejamborras"
         }
     ];
+
+    constructor() {
+
+    }
 
   ngOnInit() {
   }

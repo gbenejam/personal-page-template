@@ -1,4 +1,4 @@
-<section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+<section class="resume-section p-3 p-lg-5 d-flex d-columnb" id="about">
     <div class="my-auto">
         <h1 class="mb-0 primary-text">< {{personalInfo.firstName}} {{personalInfo.lastName}} />
         </h1>
@@ -10,10 +10,10 @@
         <ul class="list-inline list-social-icons mb-0 mt-5">
             <li class="list-inline-item" *ngFor="let social of socialData">
                 <a href="{{social.url}}">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="{{social.iconClassInfo}}"></i>
-                </span>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="{{social.iconClassInfo}}"></i>
+                    </span>
                 </a>
             </li>
         </ul>

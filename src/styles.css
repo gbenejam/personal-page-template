@@ -20,7 +20,17 @@ h2 {
 }
 
 .primary-text {
+  color: #6E74AA;
+}
+
+.secondary-text {
     color: #9fa8da;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #B4B4B4;
 }
 
 section.resume-section {

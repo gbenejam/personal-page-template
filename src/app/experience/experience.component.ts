@@ -1,5 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
+export interface ExperienceData {
+  title:string;
+  company:string;
+  city:string;
+  duties:string;
+  startDate:string;
+  endDate:string;
+}
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',

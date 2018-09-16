@@ -7,6 +7,8 @@ import { Component, OnInit,ViewEncapsulation } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+    public isCollapsed = false;
+
     public navigation:Array<string> = [
         "About",
         "Experience",
