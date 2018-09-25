@@ -1,4 +1,21 @@
+@media (max-width: 992px) {
+  #sideNav {
+    background-color: rgb(159, 168, 218);
+  }
+  .navbar-brand-logo {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+}
 @media (min-width: 992px) {
+  .navbar-brand-logo img {
+    display: none;
+  }
   #sideNav {
     text-align: center;
     position: fixed;
@@ -8,7 +25,7 @@
     flex-direction: column;
     width: 17rem;
     height: 100vh; 
-    background-color: #9fa8da;
+    background-color: rgb(159, 168, 218, 0.7);
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -18,7 +35,7 @@
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgb(209, 217, 255, 0.5); 
+    border: 0.5rem solid rgb(110, 116, 170, 0.5); 
   }
   #sideNav .navbar-collapse {
     display: flex;

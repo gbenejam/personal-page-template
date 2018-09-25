@@ -31,7 +31,7 @@ export class InterestsComponent implements OnInit {
 		},
 		{
 			name: "Nature",
-			icon: "fa-tree"
+			icon: "fa-feather-alt"
 		},
     ];
 

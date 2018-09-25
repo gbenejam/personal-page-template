@@ -22,7 +22,7 @@ export class ExperienceComponent implements OnInit {
             title: "AEM Consultant",
             company: "Blue Infinity",
             city: "Geneva",
-            duties: "viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ",
+            duties: "Providing Web solutions using AEM with Java and Javascript. Resolving client issues. Testing products and applications. Documenting processes and application instructions. Supporting and troubleshooting software issues. Conducting training sessions and workshops. Generating innovate ideas",
             startDate: "March 2013",
             endDate: "Present"
         },
@@ -30,7 +30,7 @@ export class ExperienceComponent implements OnInit {
             title: "Junior Web Developer",
             company: "Netcentric",
             city: "Barcelona",
-            duties: "viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc",
+            duties: "Agile Environment. Providing Web solutions using AEM with Java and Javascript. Testing products and applications. Documenting processes and application instructions.",
             startDate: "December 2011",
             endDate: "March 2013"
         }
