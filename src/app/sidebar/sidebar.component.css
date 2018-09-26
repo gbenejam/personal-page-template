@@ -25,7 +25,7 @@
     flex-direction: column;
     width: 17rem;
     height: 100vh; 
-    background-color: rgb(159, 168, 218, 0.7);
+    background-color: rgba(159, 168, 218, 0.7);
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -35,7 +35,7 @@
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgb(110, 116, 170, 0.5); 
+    border: 0.5rem solid rgba(110, 116, 170, 0.5); 
   }
   #sideNav .navbar-collapse {
     display: flex;
