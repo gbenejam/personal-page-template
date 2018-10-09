@@ -5,8 +5,7 @@
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline">
             <li class="list-inline-item" *ngFor="let icon of devicons">
-                <i class="devicons {{icon.icon}}"></i>
-                <div class="text-center">{{icon.name}}</div>
+                <i class="devicons {{icon.icon}}" placement="bottom" ngbTooltip="{{icon.name}}"></i>
             </li>
         </ul>
 

@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -9,6 +12,10 @@ import { ExperienceComponent } from './experience/experience.component';
 import { InterestsComponent } from './interests/interests.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { LanguageSelectorComponent } from './language-selector/language-selector.component';
+import { AppRoutingModule } from './app-routing.module';
+
+
 
 @NgModule({
   declarations: [
@@ -19,10 +26,14 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ExperienceComponent,
     InterestsComponent,
     SkillsComponent,
-    SidebarComponent
+    SidebarComponent,
+    LanguageSelectorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule,
+    ScrollToModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

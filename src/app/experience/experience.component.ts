@@ -23,7 +23,7 @@ export class ExperienceComponent implements OnInit {
             company: "Blue Infinity",
             city: "Geneva",
             duties: "Providing Web solutions using AEM with Java and Javascript. Resolving client issues. Testing products and applications. Documenting processes and application instructions. Supporting and troubleshooting software issues. Conducting training sessions and workshops. Generating innovate ideas",
-            startDate: "March 2013",
+            startDate: "August 2017",
             endDate: "Present"
         },
         {
@@ -31,8 +31,8 @@ export class ExperienceComponent implements OnInit {
             company: "Netcentric",
             city: "Barcelona",
             duties: "Agile Environment. Providing Web solutions using AEM with Java and Javascript. Testing products and applications. Documenting processes and application instructions.",
-            startDate: "December 2011",
-            endDate: "March 2013"
+            startDate: "September 2015",
+            endDate: "July 2017"
         }
     ];
 

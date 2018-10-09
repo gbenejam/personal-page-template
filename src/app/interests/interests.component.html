@@ -5,8 +5,7 @@
         <ul class="list-inline">
             <li class="list-inline-item" *ngFor="let interest of interests">
             	<div class="inline-container mr-5 mb-4">
-                	<i class="inticons mb-3 fa {{interest.icon}}"></i>
-                	<div class="icon-text">{{interest.name}}</div>
+                	<i class="inticons mb-3 fa {{interest.icon}}" placement="bottom" ngbTooltip="{{interest.name}}"></i>
                 </div>
             </li>
         </ul>

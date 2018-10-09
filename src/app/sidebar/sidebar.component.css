@@ -11,8 +11,17 @@
     line-height: inherit;
     white-space: nowrap;
   }
+  .list-social-icons {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
+  .list-social-icons a {
+  color: #495057; 
+  }
+  .list-social-icons a:hover {
+    color: #BD5D38; 
+  }
   .navbar-brand-logo img {
     display: none;
   }
