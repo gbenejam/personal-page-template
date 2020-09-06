@@ -14,48 +14,40 @@ export class SkillsComponent implements OnInit {
 
   devicons:Skills[] = [
     {
-      icon: "devicons-java",
+      icon: "devicon-java-plain colored",
       name: "Java"
     },
     {
-      icon: "devicons-jenkins",
-      name: "Jenkins"
-    },
-    {
-      icon: "devicons-git",
-      name: "Git"
-    },
-    {
-      icon: "devicons-html5", 
-      name: "HTML 5"
-    },
-    {
-      icon: "devicons-css3",
-      name: "CSS 3"
-    },
-    {
-      icon: "devicons-javascript",
-      name: "Javascript"
-    },
-    {
-      icon: "devicons-angular",
-      name: "Angular"
-    },
-    {
-      icon: "devicons-jquery",
+      icon: "devicon-jquery-plain colored",
       name: "JQuery"
     },
     {
-      icon: "devicons-bootstrap",
-      name: "Bootstrap"
-    },
-    {
-      icon: "devicons-nodejs",
+      icon: "devicon-nodejs-plain colored",
       name: "NodeJS"
     },
     {
-      icon: "devicons-jira",
-      name: "Jira"
+      icon: "devicon-git-plain colored",
+      name: "Git"
+    },
+    {
+      icon: "devicon-html5-plain colored", 
+      name: "HTML 5"
+    },
+    {
+      icon: "devicon-css3-plain colored",
+      name: "CSS 3"
+    },
+    {
+      icon: "devicon-javascript-plain colored",
+      name: "Javascript"
+    },
+    {
+      icon: "devicon-angularjs-plain colored",
+      name: "Angular"
+    },
+    {
+      icon: "devicon-vuejs-plain colored",
+      name: "VueJS"
     }
   ];
 

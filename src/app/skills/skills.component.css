@@ -6,6 +6,10 @@
   color: #6E74AA;
 }
 
+.list-inline-item:not(:last-child) {
+  margin: 1rem;
+}
+
 .inline-container {
 	display: inline-block;
 	position:relative;

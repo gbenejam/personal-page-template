@@ -35,7 +35,7 @@ export class AboutComponent implements OnInit {
             state: "Switzerland",
         },
         email: "gbenejamborras@gmail.com",
-        description: "Full Stack developer. Currently working as a Technical Consultant developing web solutions with Adobe Experience Manager. Exploring different Web Technologies on my free time.",
+        description: "Full Stack developer. Currently working as a Senior Technical Consultant developing web solutions with Adobe Experience Manager. Exploring different Web Technologies on my free time.",
         quote: "Never stop learning; for when we stop learning, we stop growing.",
     };
 

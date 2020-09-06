@@ -18,13 +18,21 @@ export class ExperienceComponent implements OnInit {
 
   
   public experienceArr:ExperienceData[] = [
+          {
+            title: "Senior Consultant",
+            company: "Valtech",
+            city: "Geneva",
+            duties: "Business Analysis. Tech leading. Architecting. Building Proofs of Concept. Implementing solutions using AEM, Angular and Spring as a microservice.",
+            startDate: "February 2019",
+            endDate: "Present"
+        },
         {
-            title: "AEM Consultant",
+            title: "Adobe Experience Cloud Consultant",
             company: "Blue Infinity",
             city: "Geneva",
-            duties: "Providing Web solutions using AEM with Java and Javascript. Resolving client issues. Testing products and applications. Documenting processes and application instructions. Supporting and troubleshooting software issues. Conducting training sessions and workshops. Generating innovate ideas",
+            duties: "Tech leading. Providing Web solutions using AEM with Java and Javascript. Resolving client issues. Testing products and applications. Documenting processes and application instructions. Supporting and troubleshooting software issues. Conducting training sessions and workshops. Generating innovate ideas",
             startDate: "August 2017",
-            endDate: "Present"
+            endDate: "January 2019"
         },
         {
             title: "Junior Web Developer",

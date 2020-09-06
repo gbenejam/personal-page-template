@@ -21,9 +21,9 @@ export class EducationComponent implements OnInit {
 	    {
 	        school: "Universitat Oberta de Catalunya",
 	        degree: "Bachelor of Science",
-	        department: "Software Engineering",
+	        department: "Software Engineering - Minor in Data Science",
 	        startDate: "September 2016",
-	        endDate: "Present",
+	        endDate: "June 2021",
 	        icon: "fa-code",
 	        status: "In Progress"
 	    },
