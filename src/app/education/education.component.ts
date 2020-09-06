@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 export interface EducationData {
 	school:string;
+	url:string;
 	degree:string;
 	department:string; 
 	startDate:string;
@@ -19,7 +20,8 @@ export class EducationComponent implements OnInit {
 
 	public educationArr:EducationData[] = [
 	    {
-	        school: "Universitat Oberta de Catalunya",
+			school: "Universitat Oberta de Catalunya",
+			url: "https://www.uoc.edu/",
 	        degree: "Bachelor of Science",
 	        department: "Software Engineering - Minor in Data Science",
 	        startDate: "September 2016",
@@ -28,7 +30,8 @@ export class EducationComponent implements OnInit {
 	        status: "In Progress"
 	    },
 	    {
-	        school: "Universitat de Barcelona",
+			school: "Universitat de Barcelona",
+			url: "https://www.ub.edu/web/portal/en/",
 	        degree: "Bachelor of Science",
 	        department: "Physics",
 	        startDate: "September 2012",
